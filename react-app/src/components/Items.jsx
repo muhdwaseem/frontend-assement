@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios, {} from 'axios'
-
+import { Link } from 'react-router-dom'
 
 import './content.css'
 function Items({item,allcategories,enter,setitems}) {
@@ -30,7 +30,7 @@ function Items({item,allcategories,enter,setitems}) {
                     </header>
                     <p className="item-text">{description}</p>
                     <button className='filter-btn' onClick={()=>deleteitems(id)}>Delete</button>
-                    <button className='filter-btn'>View</button>
+               <Link className='filter-btn' to={`/view/${id}`}>View</Link>
                 </div>
                 </article>
             )

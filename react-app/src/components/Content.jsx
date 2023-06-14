@@ -36,7 +36,7 @@ const filteritems=(category)=>{
 
         </div>
         <Categaries allcategories={allcategories} filteritems={filteritems}/>
-       <Items item={items} enter={enter}  setitems={setitems}/>
+       <Items item={items} enter={enter}  setitems={setitems} />
     </section>  
   </main>
   )

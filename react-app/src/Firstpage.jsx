@@ -49,7 +49,7 @@ console.log(items);
         </div>      
 
     </div>
-    <Content  enter={enter} itemsdata={items}/>
+    <Content   enter={enter} itemsdata={items}/>
     </div>
   )
 }
