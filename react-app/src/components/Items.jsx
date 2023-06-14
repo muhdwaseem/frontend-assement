@@ -30,7 +30,7 @@ function Items({item,allcategories,enter,setitems}) {
                     </header>
                     <p className="item-text">{description}</p>
                     <button className='filter-btn' onClick={()=>deleteitems(id)}>Delete</button>
-               <Link className='filter-btn' to={`/view/${id}`}>View</Link>
+               <Link className='filter-btn'  to={`/view/${id}`}>View</Link>
                 </div>
                 </article>
             )

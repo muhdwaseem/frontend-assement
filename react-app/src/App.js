@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       
      <Firstpage />
-     <Routes >
+     {/* <Routes >
     <Route path='/view/:id' element={<View/>}></Route>
-     </Routes>
+     </Routes> */}
     </div>
   );
 }
